@@ -1,4 +1,4 @@
-import useCalci from "./CalciContext";
+import useCalci from "CalciContext";
 
 export default function NavBar() {
   const { themeMode, darkTheme, lightTheme } = useCalci();
@@ -46,4 +46,5 @@ export default function NavBar() {
     </label>
   );
 }
+
 
