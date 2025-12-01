@@ -2,8 +2,8 @@
 
 import {  useState, useEffect } from 'react'
 import './App.css'
-import { CalciContextProvider } from './contexts/CalciContext';
-import NavBar from './components/NavBar';
+import { CalciContextProvider } from './CalciContext';
+import NavBar from './NavBar';
 
 function App() {
                   //* Calculator functioning *//
